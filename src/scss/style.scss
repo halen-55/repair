@@ -1,3 +1,6 @@
-@import "./blocks/colors"; /* подключение файлов */
+@import "./blocks/colors"; 
 @import "./blocks/interface";
+// Импорт стилей шапки
 @import "./blocks/navbar";
+// Стили для главного экрана
+@import "./blocks/hero"
