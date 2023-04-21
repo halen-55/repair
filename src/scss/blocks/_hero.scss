@@ -1,5 +1,6 @@
 .hero {
   padding: 50px 0;
+  background-color: $secondary;
   
   &-block {
     display: flex;
@@ -7,7 +8,7 @@
   
   &-text {
     flex-basis: 50%;
-    padding-right: 140px;
+    padding-right: 100px;
   
     &__title {
       // color: red;
@@ -34,6 +35,9 @@
       display: flex;
       align-items: center;
       margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     &__image {

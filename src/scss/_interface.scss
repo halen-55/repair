@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  }
+
 body {
   font-family: 'Museo Sans 300 Light';  
  }
@@ -29,4 +33,30 @@ img {
   background-color: $main-color;
   border: none;
   padding: 18px 30px;
+  &:hover {
+    background-color: lighten($main-color, 10%);
+    cursor: pointer;
+  }
+}
+
+.section {
+  padding: 90px 0;
+  
+  &-title {
+    font-size: 24px;
+    font-family: 'Museo Sans 700 Bold';
+  }
+
+  &-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+  }
+
+  .input {
+    border: 1px solid $border-input;
+    padding: 20px 26px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
 }
