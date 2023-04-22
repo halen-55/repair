@@ -46,6 +46,7 @@ img {
   &-title {
     font-size: 24px;
     font-family: 'Museo Sans 700 Bold';
+    text-align: center;
   }
 
   &-subtitle {
@@ -60,4 +61,13 @@ img {
     font-size: 15px;
     border-radius: 10px;
   }
+}
+
+.arrows {
+  &__left, &__right {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
 }
